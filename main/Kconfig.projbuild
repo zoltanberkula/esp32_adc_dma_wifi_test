@@ -1,0 +1,32 @@
+# put here your custom config value
+menu "Example Configuration"
+config ESP_WIFI_SSID
+    string "MT_DEV"
+    default "myssid"
+    help
+	SSID (network name) for the example to connect to.
+
+config ESP_WIFI_PASSWORD
+    string "MTwifi69"
+    default "mypassword"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+
+config ESP_AP_WIFI_SSID
+    string "ESP_SOFT_AP"
+    default "myssid"
+    help
+	AP SSID (network name) for the example to connect to.
+
+config ESP_AP_WIFI_PASSWORD
+    string "123456789"
+    default "mypassword"
+    help
+	AP WiFi password (WPA or WPA2) for the example to use.
+	
+config ESP_TCP_SERVER_IPV4
+    string "192.168.0.106"
+    default "tcp server ip"
+    help
+	AP WiFi password (WPA or WPA2) for the example to use.
+endmenu
